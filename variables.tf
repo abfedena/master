@@ -26,3 +26,7 @@ variable "environment_tag" {
   description = "Environment tag"
   default = "Production"
 }
+variable "alarms_email" {
+  description = "Environment alarms_email tag"
+  default = "hirupatel567@gmail.com"
+}
